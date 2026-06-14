@@ -1,0 +1,89 @@
+{
+  "_comment": "AttendTrack Settings \u2014 Edit this file to customize behavior.",
+  "app": {
+    "name": "AttendTrack",
+    "version": "1.0.0",
+    "theme": "darkly",
+    "_theme_options": [
+      "darkly",
+      "cyborg",
+      "vapor",
+      "superhero",
+      "solar",
+      "cosmo",
+      "flatly",
+      "litera"
+    ],
+    "window_width": 1280,
+    "window_height": 800,
+    "remember_last_file": true,
+    "last_file": "C:/Users/Clent/Documents/python/portfolio/AttendTrack/attendance_template.xlsx"
+  },
+  "attendance": {
+    "work_start_time": "08:00",
+    "work_end_time": "17:00",
+    "late_threshold_minutes": 15,
+    "half_day_hours": 4.0,
+    "full_day_hours": 8.0,
+    "overtime_threshold_hours": 8.0,
+    "break_duration_minutes": 60
+  },
+  "excel": {
+    "expected_columns": {
+      "employee_id": "Employee ID",
+      "employee_name": "Employee Name",
+      "department": "Department",
+      "date": "Date",
+      "time_in": "Time In",
+      "time_out": "Time Out",
+      "status": "Status"
+    },
+    "date_formats": [
+      "%Y-%m-%d",
+      "%m/%d/%Y",
+      "%d/%m/%Y",
+      "%d-%m-%Y"
+    ],
+    "time_formats": [
+      "%H:%M",
+      "%H:%M:%S",
+      "%I:%M %p",
+      "%I:%M:%S %p"
+    ]
+  },
+  "report": {
+    "output_folder": "reports",
+    "include_chart": true,
+    "company_name": "My Company",
+    "accent_color": "1E3A5F",
+    "header_color": "2C5F8A"
+  },
+  "status_labels": {
+    "present": [
+      "Present",
+      "P",
+      "present"
+    ],
+    "absent": [
+      "Absent",
+      "A",
+      "absent"
+    ],
+    "leave": [
+      "Leave",
+      "L",
+      "leave",
+      "On Leave"
+    ],
+    "holiday": [
+      "Holiday",
+      "H",
+      "holiday"
+    ],
+    "half_day": [
+      "Half Day",
+      "HD",
+      "half_day"
+    ]
+  }
+}
