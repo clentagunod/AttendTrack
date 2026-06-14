@@ -2,29 +2,20 @@
 
 A professional desktop GUI app for reading, analyzing, and reporting employee attendance from Excel files.
 
----
 
-## Project Structure
-
-```
-attendtrack/
-├── main.py              ← Entry point (run this)
-├── settings.json        ← All configuration (edit here)
-│
-├── core/
-│   ├── config.py        ← Settings loader/saver
-│   ├── reader.py        ← Excel file parser
-│   ← calculator.py     ← Attendance metrics engine
-│   └── reporter.py      ← Excel report generator
-│
-├── gui/
-│   └── app.py           ← Full GUI application (ttkbootstrap)
-│
-└── utils/
-    └── logger.py        ← Dual console + file logger
-```
 
 ---
+
+## 📸 Preview
+
+<p align="center">
+  <img src="assets/snap.png" alt="FileScout Preview" width="750"/>
+</p>
+
+
+---
+
+
 
 ## Requirements
 
@@ -112,11 +103,3 @@ Click **⌨️ Command Window** in the sidebar (or the button) to open a termina
 
 ---
 
-## Converting to EXE
-
-```bash
-pip install pyinstaller
-pyinstaller --onefile --windowed --name AttendTrack --add-data "settings.json;." main.py
-```
-
-Use `--windowed` (not `--console`) since AttendTrack is a GUI app — no terminal window needed.

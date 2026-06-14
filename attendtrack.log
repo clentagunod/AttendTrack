@@ -1,7 +1,0 @@
-2026-06-14 17:59:49 [INFO    ] AttendTrack ready.
-2026-06-14 18:00:22 [INFO    ] ✓ Template saved: C:/Users/Clent/Documents/python/portfolio/AttendTrack/attendance_template.xlsx
-2026-06-14 18:01:03 [INFO    ] Loading file: C:/Users/Clent/Documents/python/portfolio/AttendTrack/attendance_template.xlsx
-2026-06-14 18:01:03 [WARNING ] 2 row(s) have missing Time In values.
-2026-06-14 18:01:03 [WARNING ] 2 row(s) have missing Time Out values.
-2026-06-14 18:01:03 [INFO    ] ✓ File loaded — 10 records, 5 employees.
-2026-06-14 18:01:32 [INFO    ] ✓ Settings saved.
